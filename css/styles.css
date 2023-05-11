@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Poppins", sans-serif; /*cambio el tipo de letra */
+    background-color: #000000; /*cambio el color de fondo */
+    color: white; /*cambio el color de la letra*/
+    font-size: large;
+  }
+
+h1 {
+    font-family: 'Lexend Tera';
+    font-size: 50px;
+   
+}
+
+.perfil {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(9,9,121,1) 35%, rgba(38,0,255,1) 100%);
+}
+
+.perfil div{
+    width: 40%;
+    margin: 5%;
+    padding: 10px;
+    box-sizing: border-box;
+  
+}
+
+.perfil div h2{
+    font-size: 30px;
+
+}
+
+.perfil div img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.datos{
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.datos div{
+    width: 25%;
+    margin: 3%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #2600ff;
+    border-radius: 20px;
+  
+}
+
+.datos div h3 {
+    margin: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.fa-brands {
+    font-size: 40px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.fa-solid {
+    font-size: 40px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.fa-brands:hover{
+    opacity: 0.7;
+}
+
+.fa-solid:hover{
+    opacity: 0.7;
+}
+
+
+.datos div.redes {
+    text-align: center;
+    
+}
+
+.acerca {
+    margin: 5%;
+}
+
+.experiencia {
+    margin: 5%;
+}
+
+.foto {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto img {
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.crypto {
+    margin: 5%;
+}
+
+.nft {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.nft img {
+    width: 20%;
+    margin: 1%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    transition-duration: 1s; 
+    transition-property: all;
+}
+
+.nft img:hover {
+    transform: scale(1.5) rotate(1turn); 
+    transform-origin: center;
+}
+
+footer {
+    margin-top: 5%;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+
+    
+}
+
+@media (max-width: 1000px) {
+    .perfil div img {
+        width: 100%;
+        text-align: center;
+    }
+    .perfil div {
+        width: 80%;
+    }
+
+
+}
+
+@media (max-width: 750px) {
+    .perfil div img {
+        width: 100%;
+        text-align: center;
+    }
+    .perfil div {
+        width: 80%;
+    }
+
+    .datos div {
+        width: 90%;
+    }
+
+    .nft img{
+        width: 80%;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .perfil div img {
+        width: 100%;
+        text-align: center;
+    }
+    .perfil div {
+        width: 80%;
+        
+    }
+
+    .perfil div h1{
+        font-size: 35px;
+    }
+
+    .perfil div h2{
+        font-size: 20px;
+    }
+
+
+    .datos div {
+        width: 90%;
+    }
+
+    .foto img{
+        width: 90%;
+    }
+
+
+
+}
